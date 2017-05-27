@@ -6,9 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "liu521227" => "877328049@qq.com" }
   s.source           = { :git => "https://github.com/liu521227/huanhuanSpecs.git", :tag => s.version.to_s }
-  s.pod_target_xcconfig = {
-    'OTHER_LDFLAGS' => '$(inherited) -ObjC'
-  }
+  s.source_files  = 'huanhuanSpecs'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
